@@ -10,9 +10,9 @@ public class Principal {
 		calculadora.somar(10,50);
 		calculadora.somar(20,10);
 		//JOptionPane.showMessageDialog(null, retornoCalculo);
-		JOptionPane.showMessageDialog(null, calculadora.getValor(), "A resultado da operação é...", 0);
-		JOptionPane.showMessageDialog(null, calculadora.getValor(), "A resultado da operação é...", 1);
-		JOptionPane.showMessageDialog(null, calculadora.getValor(), "A resultado da operação é...", 2);
-		JOptionPane.showMessageDialog(null, calculadora.getValor(), "A resultado da operação é...", 3);
+		JOptionPane.showMessageDialog(null, calculadora.getValor(), "O resultado da operação é...", 0);
+		JOptionPane.showMessageDialog(null, calculadora.getValor(), "O resultado da operação é...", 1);
+		JOptionPane.showMessageDialog(null, calculadora.getValor(), "O resultado da operação é...", 2);
+		JOptionPane.showMessageDialog(null, calculadora.getValor(), "O resultado da operação é...", 3);
 	}
 }
